@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         boolean exit = false;
         while (!exit){
-           System.out.println("\nPlease choose a shape type, tap: \n1 for Rectangle \n2 for Circle \n3 for Triangle \n4 for Square \n5 for Exit");
+           System.out.println("\nPlease select the shape type, tap: \n1 for Rectangle \n2 for Circle \n3 for Triangle \n4 for Square \n5 for Exit");
            int userChoice = sc.nextInt();
            switch (userChoice){
                case 1:
